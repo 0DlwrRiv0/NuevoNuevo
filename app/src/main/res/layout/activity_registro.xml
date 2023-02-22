@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="@drawable/fondo1">
+
+    <LinearLayout
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.255">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/cambo"
+            android:text="Usuario"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/UsuarioID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:ems="10"
+            android:fontFamily="@font/cambo"
+            android:hint="@string/Usuario"
+            android:inputType="textPersonName"
+            android:textColorHint="#1A4E07"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/cambo"
+            android:text="Contraseña"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/ContraseñaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:ems="10"
+            android:fontFamily="@font/cambo"
+            android:hint="@string/Contraseña"
+            android:textColorHint="#1A4E07"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/RegistrateID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1A4E07"
+            android:fontFamily="@font/cambo"
+            android:text="@string/Registrate"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/IniciaSesionID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:backgroundTint="#1A4E07"
+            android:fontFamily="@font/cambo"
+            android:text="@string/IniciarSesion"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/OlvideContraID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1A4E07"
+            android:fontFamily="@font/cambo"
+            android:text="@string/OlvideContra"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="162dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gato2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
